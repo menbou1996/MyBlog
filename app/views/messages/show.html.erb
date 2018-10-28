@@ -5,9 +5,15 @@
   <%= @message.title %>
 </p>
 
+
 <p>
   <strong>Message:</strong>
   <%= @message.message %>
+</p>
+
+<p>
+  <strong>お名前:</strong>
+  <%= @message.name %>
 </p>
 
 <%= link_to 'Edit', edit_message_path(@message) %> |
